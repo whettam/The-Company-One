@@ -1,0 +1,155 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+@font-face {
+    font-family: Ghost;
+    src: url(XGhostX-d990l.otf);
+}
+@font-face {
+    font-family: Rebuffed;
+    src: url(Rebuffed-apMK.ttf);
+}
+@font-face {
+    font-family: Murder;
+    src: url(AThemeForMurder-3aPG.ttf);
+}
+@font-face {
+    font-family: Frank;
+    src: url(FrankKnows-jr5l.ttf);
+}
+@font-face {
+    font-family: Valium;
+    src: url(Valium-0WZv.ttf);
+}
+@font-face {
+    font-family: daemon;
+    src: url(DAEMONES.TTF);
+}
+
+
+
+/* Body */
+body {
+    background-image: linear-gradient(black, rgb(37, 11, 11));
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    background-color: black;
+    background-position: 40%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Nosifer;
+    letter-spacing: 12px;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+    opacity: .70;
+}
+
+.icons {
+    text-align: right;
+    color: whitesmoke;
+    font-size: 40px;
+    position: fixed;
+    top: -4px;
+    margin-right: 10px;
+    letter-spacing: 0px;
+    right:20px;
+}
+
+.navlinks {
+    text-shadow: 2px 1px 1px rgb(255, 0, 0);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(218, 51, 51);
+}
+
+.homelink {
+    padding-right: 50px;
+}
+
+.aboutlink {
+    padding-left: 50px;
+}
+
+.topsection {
+    margin-top: -10px;
+    padding: 100px;
+    background-image: url(blooddrip.gif);
+    background-size:cover;
+    height: 100vh;
+    top:0;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+h1 {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-family:murder;
+    color:rgb(255, 255, 255);
+    font-size: 15em;
+    text-align: center;
+    letter-spacing: 20px;
+    text-shadow: 70px 70px 8px rgb(0, 0, 0);
+    opacity: .80;
+}
+
+.descend {
+    text-shadow: 30px 40px 7px rgb(0, 0, 0);
+    opacity: .85;
+    color: rgb(245, 245, 245);
+    font-family: murder;
+    font-size: 10em;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.ascend {
+    text-shadow: 1px -2px 3px rgb(255, 255, 255);
+    padding-top: 0px;
+    font-family: murder;
+    font-size: 10em;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+}
+
+/* images styling */
+
+img {
+    border: 3px rgb(124, 23, 23) solid;
+}
+
+.imageshomepage {
+    text-align: center;
+    padding-bottom: 100px;
+    opacity: .90;
+}
+
+h2 {
+    color:rgb(228, 202, 202);
+    text-align: center;
+    text-shadow: 1px -2px 3px rgb(255, 255, 255);
+    font-family: rebuffed;
+    font-size: 10em;
+
+}
+
+.container {
+    color:aliceblue;
+}

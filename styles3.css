@@ -1,0 +1,163 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+@font-face {
+    font-family: Ghost;
+    src: url(XGhostX-d990l.otf);
+}
+
+@font-face {
+    font-family: Rebuffed;
+    src: url(Rebuffed-apMK.ttf);
+}
+
+@font-face {
+    font-family: Murder;
+    src: url(AThemeForMurder-3aPG.ttf);
+}
+
+@font-face {
+    font-family: Frank;
+    src: url(FrankKnows-jr5l.ttf);
+}
+
+@font-face {
+    font-family: Valium;
+    src: url(Valium-0WZv.ttf);
+}
+
+@font-face {
+    font-family: daemon;
+    src: url(DAEMONES.TTF);
+}
+@font-face {
+    font-family: chalk;
+    src: url(Chalk.ttf);
+}
+@font-face {
+    font-family: cabal;
+    src: url(Cabal-w5j3.ttf);
+}
+
+/* Body */
+body {
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    background-color: black;
+    background-position: 40%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Nosifer;
+    letter-spacing: 12px;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+    opacity: .70;
+}
+
+.icons {
+    text-align: right;
+    color: whitesmoke;
+    font-size: 40px;
+    position: fixed;
+    top: -4px;
+    margin-right: 10px;
+    letter-spacing: 0px;
+    right: 20px;
+}
+
+.navlinks {
+    text-shadow: 2px 1px 1px rgb(255, 0, 0);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(218, 51, 51);
+}
+
+.homelink {
+    padding-right: 50px;
+}
+
+.aboutlink {
+    padding-left: 50px;
+}
+
+.contactinfo {
+    border: 0px;
+    border-top: 1px darkred;
+    border-bottom: 1px darkred;
+    border-style: ridge;
+    box-shadow: 0px 0px 10px darkred;
+    bottom: -500px;
+}
+
+h1 {
+    text-align: center;
+    font-family: rebuffed;
+    font-size: 7em;
+    color: darkred;
+    text-shadow: 2px 2px white;
+}
+
+p {
+    text-align: center;
+    font-family: rebuffed;
+    font-size: 6em;
+    color: darkred;
+    text-shadow: 2px 2px white;
+    margin-top: -40px;
+}
+
+h2 {
+    text-align: center;
+    font-family: rebuffed;
+    font-size: 7em;
+    color: darkred;
+    text-shadow: 2px 2px white;
+    margin-top: -100px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.reviews {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    color: rgb(172, 96, 96);
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border: 5px rgb(85, 39, 39) solid;
+    box-shadow: 0px 0px 5px rgb(77, 26, 26);
+    border-radius: 70px 70px 0px 0px;
+}
+
+form {
+    border: 1px darkred solid;
+    text-align:center;
+}
+
+.sendus {
+    border-top: 1px darkred solid;
+    box-shadow: 0px 0px 5px rgb(77, 26, 26);
+    margin-top: 50px;
+    margin-bottom: 0px;
+}

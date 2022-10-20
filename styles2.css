@@ -1,0 +1,163 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+@font-face {
+    font-family: Ghost;
+    src: url(XGhostX-d990l.otf);
+}
+@font-face {
+    font-family: Rebuffed;
+    src: url(Rebuffed-apMK.ttf);
+}
+@font-face {
+    font-family: Murder;
+    src: url(AThemeForMurder-3aPG.ttf);
+}
+@font-face {
+    font-family: Frank;
+    src: url(FrankKnows-jr5l.ttf);
+}
+@font-face {
+    font-family: Valium;
+    src: url(Valium-0WZv.ttf);
+}
+@font-face {
+    font-family: daemon;
+    src: url(DAEMONES.TTF);
+}
+@font-face {
+    font-family: chalk;
+    src: url(Chalk.ttf);
+}
+@font-face {
+    font-family: cabal;
+    src: url(Cabal-w5j3.ttf);
+}
+
+
+body {
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    background-color: black;
+    background-position: 40%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Nosifer;
+    letter-spacing: 12px;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+    opacity: .70;
+}
+
+.icons {
+    text-align: right;
+    color: whitesmoke;
+    font-size: 40px;
+    position: fixed;
+    top: -4px;
+    margin-right: 10px;
+    letter-spacing: 0px;
+    right:20px;
+}
+
+.navlinks {
+    text-shadow: 2px 1px 1px rgb(255, 0, 0);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(218, 51, 51);
+}
+
+.homelink {
+    padding-right: 50px;
+}
+
+.aboutlink {
+    padding-left: 50px;
+}
+
+.topsection {
+    margin-top: -10px;
+    padding: 125px;
+    background-image: url(blooddrip.gif);
+    background-size:cover;
+    height: 100vh;
+    top:0;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+table {
+    margin: 100px 0px 0px 60px;
+    width: calc(100%/3);
+    table-layout: fixed;
+}
+
+td, th {
+    border: 1px rgb(49, 10, 10) solid;
+    box-shadow: 0px 0px 10px rgb(156, 22, 22);
+}
+
+.numberdays {
+    font-size: 1em;
+    color: rgb(224, 213, 213);    
+    text-align: right;
+    background-image: linear-gradient(rgb(83, 35, 35), rgb(12, 4, 4));
+    font-family: valium;
+}
+
+.opendays {
+    font-size:large;
+    color: rgb(206, 162, 162);    
+    text-align: right;
+    font-family: cabal;
+    background-image: linear-gradient(rgb(14, 11, 11), rgb(102, 39, 39));
+    height: 75px;
+    text-align: center;
+   
+}
+
+th {
+    color: darkred;
+    font-family: murder;
+    font-size: 10em;
+    letter-spacing: 40px;
+    background-image: linear-gradient(rgb(63, 34, 34), rgb(10, 9, 9));
+}
+
+.daysofweek {
+    color: rgb(230, 211, 211);
+    font-family: murder;
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(rgb(85, 19, 19), rgb(0, 0, 0));
+}
+
+table, tr, td {
+    margin: 20px 0px 0px 30px;
+    width: 95%;
+    table-layout: fixed;
+}
+
+footer {
+    padding-top: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
